@@ -4,6 +4,14 @@ This is an original, low-detail experimental vehicle mod with a 3.8L V6 configur
 
 The files target BeamNG.drive 0.40.x. RLS Career Overhaul 2.8.0 metadata and dealership filters have been checked against its published Lua source. **The vehicle has not been run in BeamNG. Driving, damage, purchasing, repairs, and save persistence remain unverified.**
 
+## Model renders
+
+These Blender renders show the prototype model. In-game appearance still needs verification.
+
+![Front three-quarter view of the green 1997 Thunderbird prototype](renders/thunderbird_front.png)
+
+![Rear three-quarter view of the burgundy 1997 Thunderbird prototype](renders/thunderbird_rear.png)
+
 ## Download
 
 Get the game ZIP and editable source from [GitHub Releases](https://github.com/JuanQuenga/beamng-1997-ford-thunderbird/releases). Both ZIPs are also in [dist](dist). Install `thunderbird_1997_prototype.zip` only. GitHub's automatic **Source code** ZIP contains the whole repository and is not an installable BeamNG mod.
