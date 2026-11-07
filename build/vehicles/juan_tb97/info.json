@@ -1,0 +1,51 @@
+{
+  "Name": "Thunderbird LX [experimental]",
+  "Brand": "Ford",
+  "Author": "Juan / Codex",
+  "Country": "United States",
+  "Type": "Car",
+  "Body Style": "Coupe",
+  "default_pc": "lx_v6",
+  "Years": {
+    "min": 1997,
+    "max": 1997
+  },
+  "paints": {
+    "Alpine green": {
+      "baseColor": [
+        0.025,
+        0.12,
+        0.085,
+        1
+      ],
+      "metallic": 0.6,
+      "roughness": 0.22,
+      "clearcoat": 1,
+      "clearcoatRoughness": 0.08
+    },
+    "Burgundy": {
+      "baseColor": [
+        0.29,
+        0.025,
+        0.035,
+        1
+      ],
+      "metallic": 0.6,
+      "roughness": 0.22,
+      "clearcoat": 1,
+      "clearcoatRoughness": 0.08
+    },
+    "Silver": {
+      "baseColor": [
+        0.55,
+        0.58,
+        0.6,
+        1
+      ],
+      "metallic": 0.8,
+      "roughness": 0.25,
+      "clearcoat": 1,
+      "clearcoatRoughness": 0.08
+    }
+  }
+}

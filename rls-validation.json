@@ -1,0 +1,36 @@
+{
+  "rls_release": "v2.8.0",
+  "status": "Published RLS metadata/filter functions passed outside BeamNG",
+  "limitations": "No VFS registration, stock generation, purchasing, repair, save/reload, or runtime test.",
+  "eligible_dealer_filters": {
+    "lx_v6": [
+      {
+        "id": "quarrysideAutoSales",
+        "name": "Quarryside Auto Sales"
+      },
+      {
+        "id": "discountedDealership",
+        "name": "Trusted Auto Sales"
+      }
+    ],
+    "lx_v8": [
+      {
+        "id": "quarrysideAutoSales",
+        "name": "Quarryside Auto Sales"
+      }
+    ]
+  },
+  "source_sha256": {
+    "lua/ge/extensions/overhaul/career/market/vehicleShopping/catalog.lua": "97a5b2123e518ae5b19485ae4495f7f9ceebe8a9b8ddfb7783bf79e25da1278c",
+    "lua/ge/extensions/overhaul/career/market/vehicleShopping/validation.lua": "dd35f9b920489d949c852feeb7555de11ebcbac67119bed28f86950c93b6f919",
+    "lua/ge/extensions/overhaul/career/market/vehicleShopping/populationSelector.lua": "efb86e78309d500a8a0f1d86a2d93a83119d020b3695e267edc1a2d5017fcc3a",
+    "lua/ge/extensions/overhaul/lib/market/usedVehicleCondition.lua": "a1d5af3d293dc0efe8b8277c0079b7a063ce4ebc9cf434fa23d6d55a4a0ca25e",
+    "lua/ge/extensions/overhaul/lib/platform/jsonCatalog.lua": "36eb88d68945fc240192400eadd3266b508c83e9cfce782c56ea06382516aced",
+    "levels/rls_west_coast/facilities/dealerships.facilities.json": "6284c3c3b862253c04ad17ea9fc4ec15d5c2ef20837709e1b062ea37cfb67308"
+  },
+  "metadata_sha256": {
+    "info_lx_v6.json": "d1c23a932415834608a310d6cf9eff3173d40991fedbcd3fabf46094b37b0d40",
+    "info_lx_v8.json": "41c8a6eb7c571802020e62279c5c2308a6a00d8906390792d5e783583bbfe343",
+    "info.json": "aa2a551b5b034eb205c7c7e939e68667e38f9557ef5229bc4accd2a726445356"
+  }
+}

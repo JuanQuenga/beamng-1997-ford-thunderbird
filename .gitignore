@@ -1,0 +1,5 @@
+.tools/
+references/
+__pycache__/
+*.blend1
+*.log

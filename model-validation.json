@@ -1,0 +1,15 @@
+{
+  "status": "DAE round-trip and linear suspension constraint checks passed",
+  "dae_sha256": "0df129422176e93ef0dd6877896ef3d5e4bdb2af8f5e184590c74660c464d1c5",
+  "mesh_count": 23,
+  "vertices": 46409,
+  "model_extents_xyz_m": [
+    2.142,
+    5.1373,
+    1.3497
+  ],
+  "structure_nodes": 110,
+  "constraint_rank": 320,
+  "free_dof_without_springs": 10,
+  "limitations": "Linear constraints do not prove numerical stability, collision behavior, or correct driving in BeamNG."
+}

@@ -1,0 +1,55 @@
+{
+  "status": "Static checks passed; BeamNG execution NOT tested",
+  "check_count": 6434,
+  "mesh_count": 23,
+  "configurations": {
+    "v6": {
+      "selected_parts": [
+        "juan_tb97",
+        "juan_tb97_engine_v6",
+        "juan_tb97_wheel_FL",
+        "juan_tb97_wheel_FR",
+        "juan_tb97_wheel_RL",
+        "juan_tb97_wheel_RR",
+        "juan_tb97_transmission"
+      ],
+      "nodes": 110,
+      "estimated_peak_hp": 144.981,
+      "estimated_peak_torque_nm": 291.5,
+      "nominal_mass_kg_excluding_camera_nodes": 1620.0,
+      "parts_retail_value": 13200
+    },
+    "v8": {
+      "selected_parts": [
+        "juan_tb97",
+        "juan_tb97_engine_v8",
+        "juan_tb97_wheel_FL",
+        "juan_tb97_wheel_FR",
+        "juan_tb97_wheel_RL",
+        "juan_tb97_wheel_RR",
+        "juan_tb97_transmission"
+      ],
+      "nodes": 110,
+      "estimated_peak_hp": 205.001,
+      "estimated_peak_torque_nm": 379.6,
+      "nominal_mass_kg_excluding_camera_nodes": 1680.0,
+      "parts_retail_value": 13900
+    }
+  },
+  "files": {
+    "info.json": "aa2a551b5b034eb205c7c7e939e68667e38f9557ef5229bc4accd2a726445356",
+    "info_lx_v6.json": "d1c23a932415834608a310d6cf9eff3173d40991fedbcd3fabf46094b37b0d40",
+    "info_lx_v8.json": "41c8a6eb7c571802020e62279c5c2308a6a00d8906390792d5e783583bbfe343",
+    "juan_tb97.dae": "0df129422176e93ef0dd6877896ef3d5e4bdb2af8f5e184590c74660c464d1c5",
+    "juan_tb97.jbeam": "bdda734c7e414ec354895636a2d53b8bc1095f016a4cac9a04e5e6f0f7544960",
+    "juan_tb97_engines.jbeam": "b6a5c973d1ea58590c4c3181a84100e534640c15c71cba9413949b5981b91367",
+    "juan_tb97_transmission.jbeam": "f0b13bbaeebd5980c305fe3cd5cc513a2e934374406a5a959ec66b14feffc584",
+    "juan_tb97_wheels.jbeam": "bd694de95a1666192ff03df5997d67f7c900350b8e05ae4b1709fb288b23cbb0",
+    "lx_v6.pc": "2086951748942ed24f30c3187c7a1c22fbae62a6c96cb58856e3da2983259531",
+    "lx_v6.png": "af14dde2822d7d18fd0be46a083ded4eefa2cea31049626339150b01f8da16a8",
+    "lx_v8.pc": "e98a5fd192843d865663b25d444d9e11c69e09866d4458cf4ff116edc5af2dec",
+    "lx_v8.png": "bbe4755346f3280610fef8973e079f16a782f06dec9aad1d66efd9cc3dc4c5df",
+    "main.materials.json": "a347a9cbcd413d7b29ba900bf149182a69e65215753d8292ab7b2b3682beb40b",
+    "paint_palette.color.png": "cdef4ac2b3508b7dc845182c31535afb1278d7e0525ce5c3e8a32b73b1698756"
+  }
+}

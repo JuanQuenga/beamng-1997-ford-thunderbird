@@ -1,0 +1,57 @@
+{
+  "juan_tb97_transmission": {
+    "information": {
+      "authors": "Juan / Codex",
+      "name": "4R70W four-speed automatic",
+      "value": 1400
+    },
+    "slotType": "juan_tb97_transmission",
+    "gearbox": {
+      "gearRatios": [
+        -2.32,
+        0,
+        2.84,
+        1.55,
+        1.0,
+        0.7
+      ],
+      "friction": 3,
+      "dynamicFriction": 0.002,
+      "torqueLossCoef": 0.015,
+      "parkLockTorque": 20000,
+      "oneWayViscousCoef": 5,
+      "gearChangeTime": 0.35,
+      "gearboxNode:": [
+        "e3"
+      ]
+    },
+    "torqueConverter": {
+      "converterDiameter": 0.29,
+      "converterStiffness": 12,
+      "couplingAVRatio": 0.88,
+      "stallTorqueRatio": 2.0,
+      "lockupClutchTorque": 550,
+      "additionalEngineInertia": 0.12
+    },
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "torqueConverter",
+        "torqueConverter",
+        "mainEngine",
+        1
+      ],
+      [
+        "automaticGearbox",
+        "gearbox",
+        "torqueConverter",
+        1
+      ]
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "Configuration": "3.8L Essex V6 4-speed automatic [prototype]",
+  "Description": "Original experimental Thunderbird model. Estimated stock power; untested handling and damage.",
+  "Transmission": "Automatic",
+  "Drivetrain": "RWD",
+  "Fuel Type": "Gasoline",
+  "Body Style": "Coupe",
+  "Config Type": "Factory",
+  "Value": 20000,
+  "Type": "Car",
+  "Brand": "Ford",
+  "Country": "United States",
+  "Power": 108.13,
+  "Torque": 291.5,
+  "Weight": 1620,
+  "Weight/Power": 14.982,
+  "PowerPeakRPM": 4000,
+  "TorquePeakRPM": 2750,
+  "Propulsion": "ICE",
+  "Induction Type": "NA",
+  "Population": 4000,
+  "defaultPaintName1": "Alpine green",
+  "Years": {
+    "min": 1997,
+    "max": 1997
+  }
+}

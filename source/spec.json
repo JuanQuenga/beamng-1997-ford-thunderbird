@@ -1,0 +1,59 @@
+{
+  "id": "juan_tb97",
+  "name": "1997 Ford Thunderbird LX",
+  "target_beamng": "0.40.x",
+  "status": "Experimental prototype; no in-game validation",
+  "length_m": 5.09,
+  "width_m": 1.846,
+  "height_m": 1.349,
+  "wheelbase_m": 2.8702,
+  "track_m": 1.565,
+  "wheel_center_z": 0.351,
+  "tire_radius_m": 0.341,
+  "tire_width_m": 0.215,
+  "rim_radius_m": 0.1905,
+  "fuel_capacity_l": 68.1,
+  "gear_ratios": [-2.32, 0, 2.84, 1.55, 1.0, 0.7],
+  "engines": {
+    "v6": {
+      "name": "3.8L Essex V6",
+      "cylinders": 6,
+      "displacement_l": 3.8,
+      "target_hp": 145,
+      "peak_power_rpm": 4000,
+      "target_torque_nm": 291.5,
+      "target_mass_kg": 1620,
+      "engine_mass_kg": 190,
+      "idle_rpm": 700,
+      "max_rpm": 5000,
+      "final_drive": 3.27,
+      "friction": 18,
+      "dynamic_friction": 0.025,
+      "net_torque_nm": [[0,0],[500,150],[1000,225],[1500,258],[2000,282],[2500,291.5],[2750,291.5],[3000,289],[3500,279],[4000,258.1],[4500,215],[5000,160],[5500,90]],
+      "paint": [0.025,0.12,0.085,1]
+    },
+    "v8": {
+      "name": "4.6L SOHC Modular V8",
+      "cylinders": 8,
+      "displacement_l": 4.6,
+      "target_hp": 205,
+      "peak_power_rpm": 4250,
+      "target_torque_nm": 379.6,
+      "target_mass_kg": 1680,
+      "engine_mass_kg": 250,
+      "idle_rpm": 650,
+      "max_rpm": 5500,
+      "final_drive": 3.08,
+      "friction": 22,
+      "dynamic_friction": 0.028,
+      "net_torque_nm": [[0,0],[500,180],[1000,275],[1500,320],[2000,350],[2500,370],[3000,379.6],[3500,376],[4000,360],[4250,343.48],[4500,320],[5000,280],[5500,220],[6000,140]],
+      "paint": [0.29,0.025,0.035,1]
+    }
+  },
+  "notes": [
+    "Torque curves are estimates constrained to published peak output, not Ford dynamometer data.",
+    "Masses, suspension, sound samples, axle options, and body geometry are prototype approximations.",
+    "Tire size is P215/70R15 for both configurations as a common starting point.",
+    "All render/model coordinates follow BeamNG: X left, Y rear, Z up."
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "body": {
+    "mesh": "juan_tb97_body",
+    "vertices": 11997,
+    "faces": 11110
+  },
+  "trim": {
+    "mesh": "juan_tb97_trim",
+    "vertices": 10346,
+    "faces": 8723
+  },
+  "interior": {
+    "mesh": "juan_tb97_interior",
+    "vertices": 4000,
+    "faces": 3442
+  },
+  "glass": {
+    "mesh": "juan_tb97_glass",
+    "vertices": 1402,
+    "faces": 1284
+  },
+  "steering": {
+    "mesh": "juan_tb97_steering",
+    "vertices": 664,
+    "faces": 634
+  },
+  "rubber_FL": {
+    "mesh": "juan_tb97_rubber_FL",
+    "vertices": 2176,
+    "faces": 2112
+  },
+  "rim_FL": {
+    "mesh": "juan_tb97_rim_FL",
+    "vertices": 512,
+    "faces": 278
+  },
+  "hubmesh_FL": {
+    "mesh": "juan_tb97_hubmesh_FL",
+    "vertices": 192,
+    "faces": 148
+  },
+  "susp_FL": {
+    "mesh": "juan_tb97_susp_FL",
+    "vertices": 1368,
+    "faces": 1320
+  },
+  "rubber_FR": {
+    "mesh": "juan_tb97_rubber_FR",
+    "vertices": 2176,
+    "faces": 2112
+  },
+  "rim_FR": {
+    "mesh": "juan_tb97_rim_FR",
+    "vertices": 512,
+    "faces": 278
+  },
+  "hubmesh_FR": {
+    "mesh": "juan_tb97_hubmesh_FR",
+    "vertices": 192,
+    "faces": 148
+  },
+  "susp_FR": {
+    "mesh": "juan_tb97_susp_FR",
+    "vertices": 1368,
+    "faces": 1320
+  },
+  "rubber_RL": {
+    "mesh": "juan_tb97_rubber_RL",
+    "vertices": 2176,
+    "faces": 2112
+  },
+  "rim_RL": {
+    "mesh": "juan_tb97_rim_RL",
+    "vertices": 512,
+    "faces": 278
+  },
+  "hubmesh_RL": {
+    "mesh": "juan_tb97_hubmesh_RL",
+    "vertices": 192,
+    "faces": 148
+  },
+  "susp_RL": {
+    "mesh": "juan_tb97_susp_RL",
+    "vertices": 1368,
+    "faces": 1320
+  },
+  "rubber_RR": {
+    "mesh": "juan_tb97_rubber_RR",
+    "vertices": 2176,
+    "faces": 2112
+  },
+  "rim_RR": {
+    "mesh": "juan_tb97_rim_RR",
+    "vertices": 512,
+    "faces": 278
+  },
+  "hubmesh_RR": {
+    "mesh": "juan_tb97_hubmesh_RR",
+    "vertices": 192,
+    "faces": 148
+  },
+  "susp_RR": {
+    "mesh": "juan_tb97_susp_RR",
+    "vertices": 1368,
+    "faces": 1320
+  },
+  "engine_mesh_v6": {
+    "mesh": "juan_tb97_engine_mesh_v6",
+    "vertices": 504,
+    "faces": 506
+  },
+  "engine_mesh_v8": {
+    "mesh": "juan_tb97_engine_mesh_v8",
+    "vertices": 504,
+    "faces": 506
+  }
+}

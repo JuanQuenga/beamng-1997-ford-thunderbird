@@ -1,0 +1,482 @@
+{
+  "juan_tb97_wheel_FL": {
+    "information": {
+      "authors": "Juan / Codex",
+      "name": "15 inch alloy with P215/70R15 tire FL",
+      "value": 250
+    },
+    "slotType": "juan_tb97_wheel_FL",
+    "pressureWheels": [
+      [
+        "name",
+        "hubGroup",
+        "group",
+        "node1:",
+        "node2:",
+        "nodeS",
+        "nodeArm:",
+        "wheelDir"
+      ],
+      {
+        "selfCollision": false,
+        "collision": true,
+        "hasTire": true,
+        "radius": 0.341,
+        "tireWidth": 0.215,
+        "hubRadius": 0.1905,
+        "hubWidth": 0.16,
+        "wheelOffset": 0,
+        "numRays": 16,
+        "hubNodeWeight": 0.42,
+        "nodeWeight": 0.14,
+        "nodeMaterial": "|NM_RUBBER",
+        "hubNodeMaterial": "|NM_METAL",
+        "hubFrictionCoef": 0.5,
+        "hubBeamSpring": 1000000,
+        "hubBeamDamp": 12,
+        "hubBeamDeform": 35000,
+        "hubBeamStrength": 100000,
+        "pressurePSI": 30,
+        "frictionCoef": 1.0,
+        "slidingFrictionCoef": 1.0,
+        "noLoadCoef": 1.2,
+        "loadSensitivitySlope": 0.00016,
+        "fullLoadCoef": 0.45,
+        "softnessCoef": 0.7,
+        "treadCoef": 0.8,
+        "triangleCollision": false,
+        "enableTireLbeams": true,
+        "enableTireReinfBeams": false,
+        "enableTireSideReinfBeams": false,
+        "enableTreadReinfBeams": true,
+        "enableTirePeripheryReinfBeams": true,
+        "wheelSideBeamSpring": 22000,
+        "wheelSideBeamDamp": 35,
+        "wheelSideBeamSpringExpansion": 350000,
+        "wheelSideBeamDampExpansion": 50,
+        "wheelSideTransitionZone": 0.1,
+        "wheelSideBeamPrecompression": 1,
+        "wheelTreadBeamSpring": 90000,
+        "wheelTreadBeamDamp": 55,
+        "wheelTreadReinfBeamSpring": 180000,
+        "wheelTreadReinfBeamDamp": 40,
+        "wheelPeripheryBeamSpring": 60000,
+        "wheelPeripheryBeamDamp": 35,
+        "wheelPeripheryReinfBeamSpring": 140000,
+        "wheelPeripheryReinfBeamDamp": 40,
+        "wheelSideBeamDeform": 18000,
+        "wheelSideBeamStrength": 25000,
+        "wheelTreadBeamDeform": 20000,
+        "wheelTreadBeamStrength": 30000,
+        "wheelPeripheryBeamDeform": 45000,
+        "wheelPeripheryBeamStrength": 50000,
+        "brakeSpring": 180,
+        "enableBrakeThermals": true,
+        "brakeDiameter": 0.26,
+        "brakeMass": 6,
+        "brakeType": "vented-disc",
+        "rotorMaterial": "steel"
+      },
+      [
+        "FL",
+        "juan_tb97_wheel_FL",
+        "juan_tb97_tire_FL",
+        "FLout",
+        "FLin",
+        9999,
+        "FLbr",
+        -1,
+        {
+          "torqueCoupling:": "FLlo",
+          "torqueArm:": "FLbr",
+          "steerAxisUp:": "FLup",
+          "steerAxisDown:": "FLlo",
+          "brakeTorque": 1700,
+          "parkingTorque": 0,
+          "propulsed": 0,
+          "enableABS": true
+        }
+      ]
+    ],
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "juan_tb97_rim_FL",
+        [
+          "juan_tb97_wheel_FL"
+        ]
+      ],
+      [
+        "juan_tb97_rubber_FL",
+        [
+          "juan_tb97_tire_FL",
+          "juan_tb97_wheel_FL"
+        ]
+      ]
+    ]
+  },
+  "juan_tb97_wheel_FR": {
+    "information": {
+      "authors": "Juan / Codex",
+      "name": "15 inch alloy with P215/70R15 tire FR",
+      "value": 250
+    },
+    "slotType": "juan_tb97_wheel_FR",
+    "pressureWheels": [
+      [
+        "name",
+        "hubGroup",
+        "group",
+        "node1:",
+        "node2:",
+        "nodeS",
+        "nodeArm:",
+        "wheelDir"
+      ],
+      {
+        "selfCollision": false,
+        "collision": true,
+        "hasTire": true,
+        "radius": 0.341,
+        "tireWidth": 0.215,
+        "hubRadius": 0.1905,
+        "hubWidth": 0.16,
+        "wheelOffset": 0,
+        "numRays": 16,
+        "hubNodeWeight": 0.42,
+        "nodeWeight": 0.14,
+        "nodeMaterial": "|NM_RUBBER",
+        "hubNodeMaterial": "|NM_METAL",
+        "hubFrictionCoef": 0.5,
+        "hubBeamSpring": 1000000,
+        "hubBeamDamp": 12,
+        "hubBeamDeform": 35000,
+        "hubBeamStrength": 100000,
+        "pressurePSI": 30,
+        "frictionCoef": 1.0,
+        "slidingFrictionCoef": 1.0,
+        "noLoadCoef": 1.2,
+        "loadSensitivitySlope": 0.00016,
+        "fullLoadCoef": 0.45,
+        "softnessCoef": 0.7,
+        "treadCoef": 0.8,
+        "triangleCollision": false,
+        "enableTireLbeams": true,
+        "enableTireReinfBeams": false,
+        "enableTireSideReinfBeams": false,
+        "enableTreadReinfBeams": true,
+        "enableTirePeripheryReinfBeams": true,
+        "wheelSideBeamSpring": 22000,
+        "wheelSideBeamDamp": 35,
+        "wheelSideBeamSpringExpansion": 350000,
+        "wheelSideBeamDampExpansion": 50,
+        "wheelSideTransitionZone": 0.1,
+        "wheelSideBeamPrecompression": 1,
+        "wheelTreadBeamSpring": 90000,
+        "wheelTreadBeamDamp": 55,
+        "wheelTreadReinfBeamSpring": 180000,
+        "wheelTreadReinfBeamDamp": 40,
+        "wheelPeripheryBeamSpring": 60000,
+        "wheelPeripheryBeamDamp": 35,
+        "wheelPeripheryReinfBeamSpring": 140000,
+        "wheelPeripheryReinfBeamDamp": 40,
+        "wheelSideBeamDeform": 18000,
+        "wheelSideBeamStrength": 25000,
+        "wheelTreadBeamDeform": 20000,
+        "wheelTreadBeamStrength": 30000,
+        "wheelPeripheryBeamDeform": 45000,
+        "wheelPeripheryBeamStrength": 50000,
+        "brakeSpring": 180,
+        "enableBrakeThermals": true,
+        "brakeDiameter": 0.26,
+        "brakeMass": 6,
+        "brakeType": "vented-disc",
+        "rotorMaterial": "steel"
+      },
+      [
+        "FR",
+        "juan_tb97_wheel_FR",
+        "juan_tb97_tire_FR",
+        "FRout",
+        "FRin",
+        9999,
+        "FRbr",
+        1,
+        {
+          "torqueCoupling:": "FRlo",
+          "torqueArm:": "FRbr",
+          "steerAxisUp:": "FRup",
+          "steerAxisDown:": "FRlo",
+          "brakeTorque": 1700,
+          "parkingTorque": 0,
+          "propulsed": 0,
+          "enableABS": true
+        }
+      ]
+    ],
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "juan_tb97_rim_FR",
+        [
+          "juan_tb97_wheel_FR"
+        ]
+      ],
+      [
+        "juan_tb97_rubber_FR",
+        [
+          "juan_tb97_tire_FR",
+          "juan_tb97_wheel_FR"
+        ]
+      ]
+    ]
+  },
+  "juan_tb97_wheel_RL": {
+    "information": {
+      "authors": "Juan / Codex",
+      "name": "15 inch alloy with P215/70R15 tire RL",
+      "value": 250
+    },
+    "slotType": "juan_tb97_wheel_RL",
+    "pressureWheels": [
+      [
+        "name",
+        "hubGroup",
+        "group",
+        "node1:",
+        "node2:",
+        "nodeS",
+        "nodeArm:",
+        "wheelDir"
+      ],
+      {
+        "selfCollision": false,
+        "collision": true,
+        "hasTire": true,
+        "radius": 0.341,
+        "tireWidth": 0.215,
+        "hubRadius": 0.1905,
+        "hubWidth": 0.16,
+        "wheelOffset": 0,
+        "numRays": 16,
+        "hubNodeWeight": 0.42,
+        "nodeWeight": 0.14,
+        "nodeMaterial": "|NM_RUBBER",
+        "hubNodeMaterial": "|NM_METAL",
+        "hubFrictionCoef": 0.5,
+        "hubBeamSpring": 1000000,
+        "hubBeamDamp": 12,
+        "hubBeamDeform": 35000,
+        "hubBeamStrength": 100000,
+        "pressurePSI": 30,
+        "frictionCoef": 1.0,
+        "slidingFrictionCoef": 1.0,
+        "noLoadCoef": 1.2,
+        "loadSensitivitySlope": 0.00016,
+        "fullLoadCoef": 0.45,
+        "softnessCoef": 0.7,
+        "treadCoef": 0.8,
+        "triangleCollision": false,
+        "enableTireLbeams": true,
+        "enableTireReinfBeams": false,
+        "enableTireSideReinfBeams": false,
+        "enableTreadReinfBeams": true,
+        "enableTirePeripheryReinfBeams": true,
+        "wheelSideBeamSpring": 22000,
+        "wheelSideBeamDamp": 35,
+        "wheelSideBeamSpringExpansion": 350000,
+        "wheelSideBeamDampExpansion": 50,
+        "wheelSideTransitionZone": 0.1,
+        "wheelSideBeamPrecompression": 1,
+        "wheelTreadBeamSpring": 90000,
+        "wheelTreadBeamDamp": 55,
+        "wheelTreadReinfBeamSpring": 180000,
+        "wheelTreadReinfBeamDamp": 40,
+        "wheelPeripheryBeamSpring": 60000,
+        "wheelPeripheryBeamDamp": 35,
+        "wheelPeripheryReinfBeamSpring": 140000,
+        "wheelPeripheryReinfBeamDamp": 40,
+        "wheelSideBeamDeform": 18000,
+        "wheelSideBeamStrength": 25000,
+        "wheelTreadBeamDeform": 20000,
+        "wheelTreadBeamStrength": 30000,
+        "wheelPeripheryBeamDeform": 45000,
+        "wheelPeripheryBeamStrength": 50000,
+        "brakeSpring": 180,
+        "enableBrakeThermals": true,
+        "brakeDiameter": 0.26,
+        "brakeMass": 6,
+        "brakeType": "vented-disc",
+        "rotorMaterial": "steel"
+      },
+      [
+        "RL",
+        "juan_tb97_wheel_RL",
+        "juan_tb97_tire_RL",
+        "RLout",
+        "RLin",
+        9999,
+        "RLbr",
+        -1,
+        {
+          "torqueCoupling:": "RLlo",
+          "torqueArm:": "RLbr",
+          "steerAxisUp:": "RLup",
+          "steerAxisDown:": "RLlo",
+          "brakeTorque": 1100,
+          "parkingTorque": 1700,
+          "propulsed": 0,
+          "enableABS": true
+        }
+      ]
+    ],
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "juan_tb97_rim_RL",
+        [
+          "juan_tb97_wheel_RL"
+        ]
+      ],
+      [
+        "juan_tb97_rubber_RL",
+        [
+          "juan_tb97_tire_RL",
+          "juan_tb97_wheel_RL"
+        ]
+      ]
+    ]
+  },
+  "juan_tb97_wheel_RR": {
+    "information": {
+      "authors": "Juan / Codex",
+      "name": "15 inch alloy with P215/70R15 tire RR",
+      "value": 250
+    },
+    "slotType": "juan_tb97_wheel_RR",
+    "pressureWheels": [
+      [
+        "name",
+        "hubGroup",
+        "group",
+        "node1:",
+        "node2:",
+        "nodeS",
+        "nodeArm:",
+        "wheelDir"
+      ],
+      {
+        "selfCollision": false,
+        "collision": true,
+        "hasTire": true,
+        "radius": 0.341,
+        "tireWidth": 0.215,
+        "hubRadius": 0.1905,
+        "hubWidth": 0.16,
+        "wheelOffset": 0,
+        "numRays": 16,
+        "hubNodeWeight": 0.42,
+        "nodeWeight": 0.14,
+        "nodeMaterial": "|NM_RUBBER",
+        "hubNodeMaterial": "|NM_METAL",
+        "hubFrictionCoef": 0.5,
+        "hubBeamSpring": 1000000,
+        "hubBeamDamp": 12,
+        "hubBeamDeform": 35000,
+        "hubBeamStrength": 100000,
+        "pressurePSI": 30,
+        "frictionCoef": 1.0,
+        "slidingFrictionCoef": 1.0,
+        "noLoadCoef": 1.2,
+        "loadSensitivitySlope": 0.00016,
+        "fullLoadCoef": 0.45,
+        "softnessCoef": 0.7,
+        "treadCoef": 0.8,
+        "triangleCollision": false,
+        "enableTireLbeams": true,
+        "enableTireReinfBeams": false,
+        "enableTireSideReinfBeams": false,
+        "enableTreadReinfBeams": true,
+        "enableTirePeripheryReinfBeams": true,
+        "wheelSideBeamSpring": 22000,
+        "wheelSideBeamDamp": 35,
+        "wheelSideBeamSpringExpansion": 350000,
+        "wheelSideBeamDampExpansion": 50,
+        "wheelSideTransitionZone": 0.1,
+        "wheelSideBeamPrecompression": 1,
+        "wheelTreadBeamSpring": 90000,
+        "wheelTreadBeamDamp": 55,
+        "wheelTreadReinfBeamSpring": 180000,
+        "wheelTreadReinfBeamDamp": 40,
+        "wheelPeripheryBeamSpring": 60000,
+        "wheelPeripheryBeamDamp": 35,
+        "wheelPeripheryReinfBeamSpring": 140000,
+        "wheelPeripheryReinfBeamDamp": 40,
+        "wheelSideBeamDeform": 18000,
+        "wheelSideBeamStrength": 25000,
+        "wheelTreadBeamDeform": 20000,
+        "wheelTreadBeamStrength": 30000,
+        "wheelPeripheryBeamDeform": 45000,
+        "wheelPeripheryBeamStrength": 50000,
+        "brakeSpring": 180,
+        "enableBrakeThermals": true,
+        "brakeDiameter": 0.26,
+        "brakeMass": 6,
+        "brakeType": "vented-disc",
+        "rotorMaterial": "steel"
+      },
+      [
+        "RR",
+        "juan_tb97_wheel_RR",
+        "juan_tb97_tire_RR",
+        "RRout",
+        "RRin",
+        9999,
+        "RRbr",
+        1,
+        {
+          "torqueCoupling:": "RRlo",
+          "torqueArm:": "RRbr",
+          "steerAxisUp:": "RRup",
+          "steerAxisDown:": "RRlo",
+          "brakeTorque": 1100,
+          "parkingTorque": 1700,
+          "propulsed": 0,
+          "enableABS": true
+        }
+      ]
+    ],
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "juan_tb97_rim_RR",
+        [
+          "juan_tb97_wheel_RR"
+        ]
+      ],
+      [
+        "juan_tb97_rubber_RR",
+        [
+          "juan_tb97_tire_RR",
+          "juan_tb97_wheel_RR"
+        ]
+      ]
+    ]
+  }
+}

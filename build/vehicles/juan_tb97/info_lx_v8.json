@@ -1,0 +1,27 @@
+{
+  "Configuration": "4.6L SOHC Modular V8 4-speed automatic [prototype]",
+  "Description": "Original experimental Thunderbird model. Estimated stock power; untested handling and damage.",
+  "Transmission": "Automatic",
+  "Drivetrain": "RWD",
+  "Fuel Type": "Gasoline",
+  "Body Style": "Coupe",
+  "Config Type": "Factory",
+  "Value": 22000,
+  "Type": "Car",
+  "Brand": "Ford",
+  "Country": "United States",
+  "Power": 152.87,
+  "Torque": 379.6,
+  "Weight": 1680,
+  "Weight/Power": 10.99,
+  "PowerPeakRPM": 4250,
+  "TorquePeakRPM": 3000,
+  "Propulsion": "ICE",
+  "Induction Type": "NA",
+  "Population": 6000,
+  "defaultPaintName1": "Burgundy",
+  "Years": {
+    "min": 1997,
+    "max": 1997
+  }
+}

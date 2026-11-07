@@ -1,0 +1,15 @@
+{
+  "format": 2,
+  "model": "juan_tb97",
+  "mainPartName": "juan_tb97",
+  "parts": {
+    "main": "juan_tb97",
+    "juan_tb97_engine": "juan_tb97_engine_v6",
+    "juan_tb97_wheel_FL": "juan_tb97_wheel_FL",
+    "juan_tb97_wheel_FR": "juan_tb97_wheel_FR",
+    "juan_tb97_wheel_RL": "juan_tb97_wheel_RL",
+    "juan_tb97_wheel_RR": "juan_tb97_wheel_RR",
+    "juan_tb97_transmission": "juan_tb97_transmission"
+  },
+  "vars": {}
+}

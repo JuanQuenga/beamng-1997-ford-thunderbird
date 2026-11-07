@@ -1,0 +1,490 @@
+{
+  "juan_tb97_engine_v6": {
+    "information": {
+      "authors": "Juan / Codex",
+      "name": "3.8L Essex V6 estimated stock output",
+      "value": 1800
+    },
+    "slotType": "juan_tb97_engine",
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "combustionEngine",
+        "mainEngine",
+        "dummy",
+        0
+      ]
+    ],
+    "mainEngine": {
+      "torque": [
+        [
+          "rpm",
+          "torque"
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          500,
+          169.309
+        ],
+        [
+          1000,
+          245.618
+        ],
+        [
+          1500,
+          279.927
+        ],
+        [
+          2000,
+          305.236
+        ],
+        [
+          2500,
+          316.045
+        ],
+        [
+          2750,
+          316.6995
+        ],
+        [
+          3000,
+          314.854
+        ],
+        [
+          3500,
+          306.163
+        ],
+        [
+          4000,
+          286.572
+        ],
+        [
+          4500,
+          244.781
+        ],
+        [
+          5000,
+          191.09
+        ],
+        [
+          5500,
+          122.399
+        ]
+      ],
+      "idleRPM": 700,
+      "maxRPM": 5000,
+      "hasRevLimiter": true,
+      "revLimiterRPM": 5000,
+      "inertia": 0.22,
+      "friction": 18,
+      "dynamicFriction": 0.025,
+      "engineBrakeTorque": 30,
+      "burnEfficiency": 0.28,
+      "energyStorage": "mainTank",
+      "requiredEnergyType": "gasoline",
+      "thermalsEnabled": false,
+      "torqueReactionNodes:": [
+        "e0",
+        "e4",
+        "e3"
+      ],
+      "uiName": "3.8L Essex V6",
+      "soundConfig": "soundConfig",
+      "soundConfigExhaust": "soundConfigExhaust",
+      "starterMaxRPM": 900,
+      "starterTorque": 140,
+      "maxIdleThrottle": 0.15
+    },
+    "soundConfig": {
+      "sampleName": "V6_engine",
+      "mainGain": -12,
+      "onLoadGain": 1,
+      "offLoadGain": 0.7,
+      "fundamentalFrequencyCylinderCount": 6
+    },
+    "soundConfigExhaust": {
+      "sampleName": "V6_exhaust",
+      "mainGain": -5,
+      "onLoadGain": 1,
+      "offLoadGain": 0.6,
+      "fundamentalFrequencyCylinderCount": 6
+    },
+    "driveshaft": {
+      "gearRatio": 3.27
+    },
+    "vehicleController": {
+      "highShiftUpRPM": 4400
+    },
+    "nodes": [
+      [
+        "id",
+        "posX",
+        "posY",
+        "posZ"
+      ],
+      [
+        "e0",
+        -0.26,
+        -1.67,
+        0.43,
+        {
+          "nodeWeight": 23.75,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e1",
+        -0.26,
+        -1.67,
+        0.78,
+        {
+          "nodeWeight": 23.75,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e2",
+        -0.26,
+        -1.03,
+        0.43,
+        {
+          "nodeWeight": 23.75,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e3",
+        -0.26,
+        -1.03,
+        0.78,
+        {
+          "nodeWeight": 23.75,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e4",
+        0.26,
+        -1.67,
+        0.43,
+        {
+          "nodeWeight": 23.75,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e5",
+        0.26,
+        -1.67,
+        0.78,
+        {
+          "nodeWeight": 23.75,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e6",
+        0.26,
+        -1.03,
+        0.43,
+        {
+          "nodeWeight": 23.75,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e7",
+        0.26,
+        -1.03,
+        0.78,
+        {
+          "nodeWeight": 23.75,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ]
+    ],
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "juan_tb97_engine_mesh_v6",
+        [
+          "juan_tb97_engine"
+        ]
+      ]
+    ]
+  },
+  "juan_tb97_engine_v8": {
+    "information": {
+      "authors": "Juan / Codex",
+      "name": "4.6L SOHC Modular V8 estimated stock output",
+      "value": 2500
+    },
+    "slotType": "juan_tb97_engine",
+    "powertrain": [
+      [
+        "type",
+        "name",
+        "inputName",
+        "inputIndex"
+      ],
+      [
+        "combustionEngine",
+        "mainEngine",
+        "dummy",
+        0
+      ]
+    ],
+    "mainEngine": {
+      "torque": [
+        [
+          "rpm",
+          "torque"
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          500,
+          203.4661
+        ],
+        [
+          1000,
+          299.9322
+        ],
+        [
+          1500,
+          346.3982
+        ],
+        [
+          2000,
+          377.8643
+        ],
+        [
+          2500,
+          399.3304
+        ],
+        [
+          3000,
+          410.3965
+        ],
+        [
+          3500,
+          408.2625
+        ],
+        [
+          4000,
+          393.7286
+        ],
+        [
+          4250,
+          377.9417
+        ],
+        [
+          4500,
+          355.1947
+        ],
+        [
+          5000,
+          316.6608
+        ],
+        [
+          5500,
+          258.1268
+        ],
+        [
+          6000,
+          179.5929
+        ]
+      ],
+      "idleRPM": 650,
+      "maxRPM": 5500,
+      "hasRevLimiter": true,
+      "revLimiterRPM": 5500,
+      "inertia": 0.27,
+      "friction": 22,
+      "dynamicFriction": 0.028,
+      "engineBrakeTorque": 30,
+      "burnEfficiency": 0.28,
+      "energyStorage": "mainTank",
+      "requiredEnergyType": "gasoline",
+      "thermalsEnabled": false,
+      "torqueReactionNodes:": [
+        "e0",
+        "e4",
+        "e3"
+      ],
+      "uiName": "4.6L SOHC Modular V8",
+      "soundConfig": "soundConfig",
+      "soundConfigExhaust": "soundConfigExhaust",
+      "starterMaxRPM": 900,
+      "starterTorque": 140,
+      "maxIdleThrottle": 0.15
+    },
+    "soundConfig": {
+      "sampleName": "V8_2_engine",
+      "mainGain": -12,
+      "onLoadGain": 1,
+      "offLoadGain": 0.7,
+      "fundamentalFrequencyCylinderCount": 8
+    },
+    "soundConfigExhaust": {
+      "sampleName": "V8_2_exhaust",
+      "mainGain": -5,
+      "onLoadGain": 1,
+      "offLoadGain": 0.6,
+      "fundamentalFrequencyCylinderCount": 8
+    },
+    "driveshaft": {
+      "gearRatio": 3.08
+    },
+    "vehicleController": {
+      "highShiftUpRPM": 5100
+    },
+    "nodes": [
+      [
+        "id",
+        "posX",
+        "posY",
+        "posZ"
+      ],
+      [
+        "e0",
+        -0.26,
+        -1.67,
+        0.43,
+        {
+          "nodeWeight": 31.25,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e1",
+        -0.26,
+        -1.67,
+        0.78,
+        {
+          "nodeWeight": 31.25,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e2",
+        -0.26,
+        -1.03,
+        0.43,
+        {
+          "nodeWeight": 31.25,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e3",
+        -0.26,
+        -1.03,
+        0.78,
+        {
+          "nodeWeight": 31.25,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e4",
+        0.26,
+        -1.67,
+        0.43,
+        {
+          "nodeWeight": 31.25,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e5",
+        0.26,
+        -1.67,
+        0.78,
+        {
+          "nodeWeight": 31.25,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e6",
+        0.26,
+        -1.03,
+        0.43,
+        {
+          "nodeWeight": 31.25,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ],
+      [
+        "e7",
+        0.26,
+        -1.03,
+        0.78,
+        {
+          "nodeWeight": 31.25,
+          "group": "juan_tb97_engine",
+          "collision": false,
+          "selfCollision": false
+        }
+      ]
+    ],
+    "flexbodies": [
+      [
+        "mesh",
+        "[group]:",
+        "nonFlexMaterials"
+      ],
+      [
+        "juan_tb97_engine_mesh_v8",
+        [
+          "juan_tb97_engine"
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,590 @@
+{
+  "juan_tb97_paint": {
+    "name": "juan_tb97_paint",
+    "mapTo": "juan_tb97_paint",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0.6,
+        "roughnessFactor": 0.22,
+        "useAnisotropic": true,
+        "instanceDiffuse": true,
+        "colorPaletteMap": "/vehicles/juan_tb97/paint_palette.color.png",
+        "clearCoatFactor": 1,
+        "clearCoatRoughnessFactor": 0.08
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_glass": {
+    "name": "juan_tb97_glass",
+    "mapTo": "juan_tb97_glass",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.16,
+          0.22,
+          0.24,
+          0.27
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.12,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha",
+    "translucentZWrite": false,
+    "castShadows": false
+  },
+  "juan_tb97_black": {
+    "name": "juan_tb97_black",
+    "mapTo": "juan_tb97_black",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.012,
+          0.015,
+          0.018,
+          1
+        ],
+        "metallicFactor": 0.05,
+        "roughnessFactor": 0.48,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_rubber": {
+    "name": "juan_tb97_rubber",
+    "mapTo": "juan_tb97_rubber",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.018,
+          0.021,
+          0.024,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.78,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_chrome": {
+    "name": "juan_tb97_chrome",
+    "mapTo": "juan_tb97_chrome",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.65,
+          0.69,
+          0.73,
+          1
+        ],
+        "metallicFactor": 0.95,
+        "roughnessFactor": 0.19,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_alloy": {
+    "name": "juan_tb97_alloy",
+    "mapTo": "juan_tb97_alloy",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.43,
+          0.47,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0.82,
+        "roughnessFactor": 0.28,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_steel": {
+    "name": "juan_tb97_steel",
+    "mapTo": "juan_tb97_steel",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.16,
+          0.19,
+          0.21,
+          1
+        ],
+        "metallicFactor": 0.75,
+        "roughnessFactor": 0.37,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_cloth": {
+    "name": "juan_tb97_cloth",
+    "mapTo": "juan_tb97_cloth",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.18,
+          0.19,
+          0.2,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.88,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_dash": {
+    "name": "juan_tb97_dash",
+    "mapTo": "juan_tb97_dash",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.045,
+          0.05,
+          0.055,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.62,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_gauge": {
+    "name": "juan_tb97_gauge",
+    "mapTo": "juan_tb97_gauge",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.005,
+          0.008,
+          0.009,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.45,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_white": {
+    "name": "juan_tb97_white",
+    "mapTo": "juan_tb97_white",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.83,
+          0.87,
+          0.83,
+          1
+        ],
+        "metallicFactor": 0.05,
+        "roughnessFactor": 0.32,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_needle": {
+    "name": "juan_tb97_needle",
+    "mapTo": "juan_tb97_needle",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.85,
+          0.16,
+          0.035,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.3,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_head": {
+    "name": "juan_tb97_head",
+    "mapTo": "juan_tb97_head",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.72,
+          0.78,
+          0.8,
+          1
+        ],
+        "metallicFactor": 0.35,
+        "roughnessFactor": 0.18,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_tail": {
+    "name": "juan_tb97_tail",
+    "mapTo": "juan_tb97_tail",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.29,
+          0.004,
+          0.009,
+          1
+        ],
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.23,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_reverse": {
+    "name": "juan_tb97_reverse",
+    "mapTo": "juan_tb97_reverse",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.7,
+          0.72,
+          0.7,
+          1
+        ],
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.25,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_signal_L": {
+    "name": "juan_tb97_signal_L",
+    "mapTo": "juan_tb97_signal_L",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8,
+          0.19,
+          0.01,
+          1
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.22,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_signal_R": {
+    "name": "juan_tb97_signal_R",
+    "mapTo": "juan_tb97_signal_R",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8,
+          0.19,
+          0.01,
+          1
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.22,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_head_on": {
+    "name": "juan_tb97_head_on",
+    "mapTo": "juan_tb97_head_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.72,
+          0.78,
+          0.8,
+          1
+        ],
+        "metallicFactor": 0.35,
+        "roughnessFactor": 0.18,
+        "useAnisotropic": true,
+        "emissive": true,
+        "emissiveFactor": [
+          2.5,
+          2.5,
+          2.5
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_tail_on": {
+    "name": "juan_tb97_tail_on",
+    "mapTo": "juan_tb97_tail_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.29,
+          0.004,
+          0.009,
+          1
+        ],
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.23,
+        "useAnisotropic": true,
+        "emissive": true,
+        "emissiveFactor": [
+          2.5,
+          2.5,
+          2.5
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_reverse_on": {
+    "name": "juan_tb97_reverse_on",
+    "mapTo": "juan_tb97_reverse_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.7,
+          0.72,
+          0.7,
+          1
+        ],
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.25,
+        "useAnisotropic": true,
+        "emissive": true,
+        "emissiveFactor": [
+          2.5,
+          2.5,
+          2.5
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_signal_L_on": {
+    "name": "juan_tb97_signal_L_on",
+    "mapTo": "juan_tb97_signal_L_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8,
+          0.19,
+          0.01,
+          1
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.22,
+        "useAnisotropic": true,
+        "emissive": true,
+        "emissiveFactor": [
+          2.5,
+          2.5,
+          2.5
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  },
+  "juan_tb97_signal_R_on": {
+    "name": "juan_tb97_signal_R_on",
+    "mapTo": "juan_tb97_signal_R_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.8,
+          0.19,
+          0.01,
+          1
+        ],
+        "metallicFactor": 0.15,
+        "roughnessFactor": 0.22,
+        "useAnisotropic": true,
+        "emissive": true,
+        "emissiveFactor": [
+          2.5,
+          2.5,
+          2.5
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "doubleSided": true,
+    "materialTag0": "vehicle",
+    "version": 1.5
+  }
+}
